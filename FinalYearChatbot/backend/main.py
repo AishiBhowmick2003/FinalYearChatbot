@@ -17,7 +17,7 @@ if not HUGGINGFACE_API_KEY:
 class QueryRequest(BaseModel):
     query: str
 
-DB_FAISS_PATH =r"C:\Users\bhowm\OneDrive\Documents\FinalYearChatbot\chatbot_model\db_faiss"  # Path to your FAISS index
+DB_FAISS_PATH =r"C:\Users\bhowm\OneDrive\Documents\FinalYearChatbot\chatbot_model\db_faiss" 
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 try:
